@@ -1,0 +1,45 @@
+html{
+    background-color:rgba(117, 233, 237, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+body{
+    text-align: center;
+}
+table{
+    border: 3px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color:darksalmon;
+}
+
+span{
+    background-color: aqua;
+    margin: 20px;
+    text-align: center;
+}   
+
+thead{
+    font-style: bold;
+}
+
+tr{
+    padding: 50px;
+    margin: 150px;
+}
+
+td{
+    margin-bottom: 2px solid black;
+    margin-left: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+tfoot{
+    background-color: aqua;
+}
